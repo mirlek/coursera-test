@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+}
+
+h1 {
+    font-weight: bold ;
+    font-size: 100%;
+    color: #00a;
+    text-align: center;
+}
+
+.content {
+    background-color: beige;
+    min-width: 80%;
+    min-height: auto;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.row > div {
+    margin: 15px;
+    padding: 15px;
+}
+
+#first {
+    background-color: cadetblue;
+   
+}
+
+#second {
+    background-color: yellowgreen;
+    overflow: auto;
+}
+
+#third {
+    background-color: maroon;
+    
+}
+
