@@ -5,9 +5,10 @@ body {
 
 h1 {
     font-weight: bold ;
-    font-size: 100%;
+    font-size: 48px;
     color: #00a;
     text-align: center;
+    padding: 1%;
 }
 
 .content {
@@ -18,19 +19,32 @@ h1 {
     padding: 15px;
 }
 
-.row > div {
+.annotation {
+    border: 2px solid black;
+    text-align: center;
+    display: inline;
+    float: right;
+    width: 150px;
+    background: plum;
+} 
+
+p {
+    margin: 24px 15px 15px 15px;
+}
+
+#first, #second, #third {
     margin: 15px;
-    padding: 15px;
+    min-height: 100px;
+    max-height: 250px;       
+    overflow: auto;
 }
 
 #first {
-    background-color: cadetblue;
-   
+    background-color: cadetblue; 
 }
 
 #second {
     background-color: yellowgreen;
-    overflow: auto;
 }
 
 #third {
